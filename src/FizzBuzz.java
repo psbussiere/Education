@@ -1,6 +1,6 @@
 public class FizzBuzz {
 
-     public static boolean isDivByThree(int x){
+     public static boolean  isDivByThree(int x){
         if(x % 3 == 0){
             return true;
         }else{
