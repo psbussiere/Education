@@ -1,3 +1,5 @@
+package edu.psbussiere.fizzbuzz;
+
 public class FizzBuzzSolution {
 
     public static boolean isDivByNum(int toDiv, int divBy) {
