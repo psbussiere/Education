@@ -10,21 +10,16 @@ public class FizzBuzzSolution {
         String fiz = "fiz";
         String buzz = "buzz";
 
-        for(int i = 1; i <= 100; i++){
-            if(isDivByNum(i, 3) && isDivByNum(i, 5) ){
+        for(int i = 1; i <= 100; i++) {
+            if (isDivByNum(i, 3) && isDivByNum(i, 5) ) {
                 System.out.println(i + fiz + buzz);
-            }else {
-                if (isDivByNum(i, 5)){
-                    System.out.println(i + fiz);
-                }else {
-                    if (isDivByNum(i, 3)){
-                        System.out.println(i + buzz);
-                    }else {
-                        System.out.println(i);
-                    }
-                }
+            } else if (isDivByNum(i, 5)) {
+                System.out.println(i + fiz);
+            } else if (isDivByNum(i, 3)) {
+                System.out.println(i + buzz);
+            } else {
+                System.out.println(i);
             }
         }
     }
 }
-
